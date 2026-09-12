@@ -1,0 +1,43 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Test artifacts
+*.test
+*.out
+*.prof
+coverage.html
+coverage.out
+
+# Go
+/vendor/
+/.cache/
+
+# Logs
+*.log
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+/node_modules/
+
+# TLS certs (never commit private keys)
+*.pem
+*.key
+*.crt
+
+*.db
+
+openspec/changes/*
+openspec/specs/*
